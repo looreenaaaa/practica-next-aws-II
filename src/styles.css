@@ -1,6 +1,6 @@
 :root {
-    --primary: #0f172a; /* Azul noche profundo */
-    --accent: #3b82f6;  /* Azul eléctrico */
+    --primary: #0f172a;
+    --accent: #3b82f6;
     --text-main: #1e293b;
     --text-muted: #64748b;
     --bg-body: #f8fafc;
