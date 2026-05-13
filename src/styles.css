@@ -27,7 +27,6 @@ body {
     padding: 0 24px;
 }
 
-/* Header Moderno con Degradado */
 header {
     background: linear-gradient(135deg, var(--primary) 0%, #1e40af 100%);
     color: var(--white);
@@ -63,7 +62,6 @@ header h1 {
     backdrop-filter: blur(5px);
 }
 
-/* Estilo de Tarjetas */
 .card {
     background: var(--white);
     padding: 30px;
@@ -111,7 +109,6 @@ h3 {
     margin-bottom: 12px;
 }
 
-/* Listas y texto */
 ul {
     list-style: none;
     padding-left: 0;
@@ -124,7 +121,6 @@ ul li::before {
     font-weight: bold;
 }
 
-/* Skills */
 .skills-container {
     display: flex;
     flex-wrap: wrap;
@@ -153,7 +149,6 @@ footer {
     border-top: 1px solid #e2e8f0;
 }
 
-/* Layout Grid */
 @media (min-width: 768px) {
     .grid {
         display: grid;
@@ -162,23 +157,21 @@ footer {
     }
 }
 
-/* Estilos para la foto de perfil */
 .header-content {
     display: flex;
     align-items: center;
-    gap: 30px; /* Espacio entre la foto y el texto */
+    gap: 30px;
 }
 
 .profile-pic {
     width: 170px;
     height: 170px;
-    border-radius: 50%; /* Hace la foto circular */
-    object-fit: cover; /* Evita que la imagen se estire */
-    border: 4px solid rgba(255, 255, 255, 0.2); /* Borde sutil */
+    border-radius: 50%;
+    object-fit: cover;
+    border: 4px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 8px 16px rgba(0,0,0,0.2);
 }
 
-/* Ajuste para móviles: la foto se pone arriba del texto */
 @media (max-width: 768px) {
     .header-content {
         flex-direction: column;
